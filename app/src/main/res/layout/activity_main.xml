@@ -4,7 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/black"
+    android:layout_marginStart="0dp"
+    android:layout_marginEnd="0dp"
+    android:background="#EAE2E1"
     tools:context=".MainActivity">
 
     <ScrollView
@@ -15,33 +17,57 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginStart="10dp"
             android:orientation="vertical">
 
             <ImageView
                 android:id="@+id/imageView2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_height="329dp"
+                android:layout_margin="10dp"
+                android:layout_marginStart="10dp"
                 android:background="@drawable/round_button"
-                app:srcCompat="@drawable/jobs" />
+                app:srcCompat="@drawable/roth" />
+
 
             <Button
+                app:srcCompat="@drawable/roth"
+                android:id="@+id/SarkariResult"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/round_button"
+                android:text="Sarkari Result " />
+
+            <Button
+                app:srcCompat="@drawable/roth"
                 android:id="@+id/amazon"
                 android:layout_width="match_parent"
-                android:background="@drawable/round_button"
                 android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/round_button"
                 android:text="Amazon" />
 
             <Button
                 android:id="@+id/Flipkart"
                 android:layout_width="match_parent"
-                android:background="@drawable/round_button"
                 android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:backgroundTint="@color/black"
+
+                android:layout_marginStart="10dp"
+                android:background="@drawable/round_button"
                 android:text="Flipkart" />
 
             <Button
                 android:id="@+id/Google"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginStart="10dp"
                 android:background="@drawable/round_button"
                 android:text="Google" />
 
@@ -49,34 +75,44 @@
                 android:id="@+id/TCS"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginStart="10dp"
                 android:background="@drawable/round_button"
                 android:text="TCS" />
 
             <Button
                 android:id="@+id/Wipro"
                 android:layout_width="match_parent"
-                android:background="@drawable/round_button"
                 android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/round_button"
                 android:text="Wipro" />
 
             <Button
-                android:id="@+id/Cysco"
+                android:id="@+id/Cisco"
                 android:layout_width="match_parent"
-                android:background="@drawable/round_button"
                 android:layout_height="wrap_content"
-                android:text="Cysco" />
+                android:layout_margin="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/round_button"
+                android:text="Cisco" />
 
             <Button
                 android:id="@+id/Microsoft"
                 android:layout_width="match_parent"
-                android:background="@drawable/round_button"
                 android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/round_button"
                 android:text="Microsoft" />
 
             <Button
                 android:id="@+id/Mahindra"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginStart="10dp"
                 android:background="@drawable/round_button"
                 android:minHeight="32dp"
                 android:text="Mahindra"
@@ -84,10 +120,394 @@
 
             <Button
                 android:id="@+id/Unstop"
-                android:background="@drawable/round_button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/round_button"
                 android:text="UNstop" />
+            <Button
+                android:id="@+id/Connigzant"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/round_button"
+                android:text="Cognizant" />
+            <Button
+                android:id="@+id/Atlassian"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/round_button"
+                android:text="Atlassian" />
+            <Button
+                android:id="@+id/Infosys"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/round_button"
+                android:text="Infosys" />
+
+            <Button
+                android:id="@+id/Walmart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/round_button"
+                android:text="Walmart" />
+
+
+            <Button
+                android:id="@+id/Zuspay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/round_button"
+                android:text="juspay" />
+
+            <Button
+                android:id="@+id/HCL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/round_button"
+                android:text="HCL" />
+
+
+            <Button
+                android:id="@+id/SaleForce"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/round_button"
+                android:text="SaleForce" />
+            //Accenture
+            <Button
+                android:id="@+id/Accenture"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/round_button"
+                android:text="Accenture" />
+
+
+            <Button
+                android:id="@+id/Oracle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/round_button"
+                android:text="Oracle" />
+
+
+            <Button
+                android:id="@+id/Capegemini"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/round_button"
+                android:text="Capegemini" />
+
+            <Button
+                android:id="@+id/AdobeSystems"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/round_button"
+                android:text="Adobe Systems" />
+
+            <Button
+                android:id="@+id/Intuit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/round_button"
+                android:text="Intuit" />
+
+
+            <Button
+                android:id="@+id/HPenterprises"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/round_button"
+                android:text="HP " />
+
+
+
+            <Button
+                android:id="@+id/Deloitte"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/round_button"
+                android:text="Deloitte" />
+
+
+            <Button
+                android:id="@+id/BirlaSoft"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/round_button"
+                android:text="BirlaSoft" />
+
+
+            <Button
+                android:id="@+id/Mphasis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/round_button"
+                android:text="Mphasis" />
+
+
+            <Button
+                android:id="@+id/MindTree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/round_button"
+                android:text="MindTree" />
+
+
+            <Button
+                android:id="@+id/LarsenTurboInfoTech"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/round_button"
+                android:text="LarsenAndInfoTech" />
+//eclerex
+            <Button
+                android:id="@+id/Eclerex"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/round_button"
+                android:text="Eclerex" />
+            <Button
+                android:id="@+id/WnsGlobal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/round_button"
+                android:text="WNS Global" />
+            <Button
+                android:id="@+id/Syntel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/round_button"
+                android:text="Syntel" />
+            <Button
+                android:id="@+id/SAPLabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/round_button"
+                android:text="Sap Labs" />
+            <Button
+                android:id="@+id/Trigent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/round_button"
+                android:text="Trigent" />
+            <Button
+                android:id="@+id/Symantec"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/round_button"
+                android:text="Symantec" />
+            <Button
+                android:id="@+id/Datamatics"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/round_button"
+                android:text="Datamatics" />
+            <Button
+                android:id="@+id/ZohoCorporation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/round_button"
+                android:text="ZohoCorporation" />
+            <Button
+                android:id="@+id/SutherlandGlobalService"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/round_button"
+                android:text="Sutherland Global Service" />
+            <Button
+                android:id="@+id/FISglobal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/round_button"
+                android:text="FIS Global" />
+            <Button
+                android:id="@+id/Socgen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/round_button"
+                android:text="Socgen" />
+            <Button
+                android:id="@+id/EY"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/round_button"
+                android:text="EY" />
+            <Button
+                android:id="@+id/VMWare"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/round_button"
+                android:text="VM ware" />
+// Rolta India
+            <Button
+                android:id="@+id/RoltaIndia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/round_button"
+                android:text="Rolta India" />
+
+            <Button
+                android:id="@+id/Genpact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/round_button"
+                android:text="Genpact" />
+
+            <Button
+                android:id="@+id/KPMG"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/round_button"
+                android:text="KPMG" />
+
+            <Button
+                android:id="@+id/MuSigma"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/round_button"
+                android:text="MU Sigma" />
+
+            <Button
+                android:id="@+id/RobertBosch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/round_button"
+                android:text="Robert Bosch" />
+
+            <Button
+                android:id="@+id/SonataSoftware"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/round_button"
+                android:text="Sonata Software" />
+
+            <Button
+                android:id="@+id/PWC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/round_button"
+                android:text="PWC" />
+
+            <Button
+                android:id="@+id/KpitTech"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/round_button"
+                android:text="KPIT Tech" />
+
+
+            <Button
+                android:id="@+id/Coporage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/round_button"
+                android:text="Coporage ltd" />
+
+
+            <Button
+                android:id="@+id/AffleIndia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/round_button"
+                android:text="Affle India" />
+
+<!--            <Button-->
+<!--                android:id="@+id/VMWare"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_margin="10dp"-->
+<!--                android:layout_marginStart="10dp"-->
+<!--                android:background="@drawable/round_button"-->
+<!--                android:text="VM ware" />-->
+<!--            -->
+
+
+
+
+
         </LinearLayout>
     </ScrollView>
 
