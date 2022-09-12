@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">uRlLinkOPener</string>
+    <string name="jobsoff">JobsOff</string>
+    <string name="todo">TODO</string>
+    <string name="a" />
+    <string name="coding_practice_platforms">Coding Practice Platforms</string>
+    <string name="please_click_on_the_buttons_to_visit_desired_page">Please click on the Buttons to visit desired page...</string>
+    <string name="gfg">GFG</string>
+    <string name="ey">EY</string>
 </resources>

@@ -7,20 +7,24 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@drawable/roth"
+        android:icon="@drawable/jobsoff"
         android:label="JobsOff"
-        android:roundIcon="@drawable/roth"
+        android:roundIcon="@drawable/jobsoff"
         android:supportsRtl="true"
         android:theme="@style/Theme.URlLinkOPener"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:name="com.company.urllinkopener.splashScreen"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name="com.company.urllinkopener.MainActivity">
+
         </activity>
     </application>
 

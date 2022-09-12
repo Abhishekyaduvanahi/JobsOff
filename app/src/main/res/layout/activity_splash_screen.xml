@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.company.urllinkopener.splashScreen">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/jobsoff"></ImageView>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="2dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+
+            android:layout_marginBottom="10dp"
+
+            android:text=" Presented by  Hat Coder"
+            android:textSize="10dp"
+            android:layout_marginLeft="140dp"
+            android:textColor="#787575"
+            android:padding="2dp"
+            android:textStyle="italic">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+
+            android:layout_marginBottom="50dp"
+
+            android:text=" Made in India "
+            android:textSize="10dp"
+            android:layout_marginLeft="155dp"
+            android:textColor="#787575"
+            android:padding="2dp"
+            android:textStyle="italic">
+
+        </TextView>
+    </LinearLayout>
+
+
+
+</FrameLayout>
